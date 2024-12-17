@@ -3,3 +3,7 @@ storage
 .env
 output
 static/
+
+
+# windsurf rules
+.windsurfrules
