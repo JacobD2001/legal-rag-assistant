@@ -146,7 +146,8 @@ async def _run_frontend(
         package_manager,
         "run",
         "dev",
-        "-p",
+        "--",
+        "--port",
         str(port),
         cwd=FRONTEND_DIR,
     )
